@@ -1,0 +1,77 @@
+body{ 
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.hero-title{
+    font-size: 4em;
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-content td{
+    display: block;
+    line-height: 30px;
+    }
+
+.general-info{
+    text-align: center;
+    display: inline-block;
+}
+
+.about-text{
+    font-size: 1.2em;
+}
+ 
+  .punch-parameters{
+    min-height: 300px;
+    
+    }
+ 
+ .punch-info{
+    display: inline-block;
+    max-width: 30%;
+    font-size: 24px;
+   
+ }
+
+ .floating-image{
+    width: 500px;
+    margin-left: 50px;
+    display: inline block;
+    
+
+}
+
+
+.supervision-parameters{
+    min-height: 300px;
+     
+    }
+ 
+ .supervision-info{
+    display: inline-block;
+    max-width: 40%;
+    font-size: 24px;
+   
+ }
+
+ .floating-image{
+    width: 500px;
+    margin-left: 50px;
+    display: inline block;
+
+footer{
+    clear: both;
+}
