@@ -43,6 +43,7 @@ table{
     display: inline-block;
     max-width: 30%;
     font-size: 24px;
+    text-align: left;
    
  }
 
@@ -64,13 +65,10 @@ table{
     display: inline-block;
     max-width: 40%;
     font-size: 24px;
-   
+   text-align: left;
  }
 
- .floating-image{
-    width: 500px;
-    margin-left: 50px;
-    display: inline block;
+ 
 
 footer{
     clear: both;
