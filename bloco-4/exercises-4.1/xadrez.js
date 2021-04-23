@@ -1,4 +1,4 @@
-let peça = "pica"
+let peça = "torre"
 
 let lower = peça.toLowerCase();
 
