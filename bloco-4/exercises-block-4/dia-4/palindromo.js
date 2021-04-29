@@ -1,20 +1,15 @@
-
-
-
-function palindromoCheck  (string){
+function palindromoCheck(string) {
     let checkString = '';
-    let count = 0 
-    for(index = string.length-1; index >= 0; index-=1){
-        checkString += string[index] ;
-      
+    let count = 0
+    for (index = string.length - 1; index >= 0; index -= 1) {
+        checkString += string[index];
+
     };
-    if (checkString === string){
+    if (checkString === string) {
         return 'true';
-    }
-    else{
+    } else {
         return 'false';
     }
 }
 
- console.log(palindromoCheck('tenet')); 
-
+console.log(palindromoCheck('tenet'));
