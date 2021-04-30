@@ -1,25 +1,18 @@
-let headColor = document.getElementById('header-container'); 
-headColor.style.backgroundColor = '#2fc18c';
+document.getElementById('primeiroFilhoDoFilho').innerHTML = 'Pedroca estamos com você';
+let colorC = document.getElementById('elementoOndeVoceEsta').parentElement;
+colorC.style.color = 'green'
 
-let emergencyColor = document.getElementsByClassName('emergency-tasks');
-for(let index = 0; index < emergencyColor.length; index +=1){
-    emergencyColor[index].style.backgroundColor = 'pink' ;
-}
+let child1 = document.createElement('div');
+document.getElementById('elementoOndeVoceEsta').appendChild(child1).innerHTML = 'ratos';
 
-let emergencyInsideColors = document.querySelectorAll('.emergency-tasks h3');
-for(let index = 0; index < emergencyInsideColors.length; index +=1){
-    emergencyInsideColors[index].style.backgroundColor = 'red' ;
-}
+let child2 = document.createElement('div');
+document.getElementById('pai').appendChild(child2).innerHTML = 'ratos';
 
+let child3 = document.createElement('div');
+document.getElementById('primeiroFilhoDoFilho').appendChild(child3).innerHTML = 'ratos';
 
-let noEmergencyColor = document.getElementsByClassName('no-emergency-tasks');
-for(let index = 0; index < noEmergencyColor.length; index +=1){
-    noEmergencyColor[index].style.backgroundColor = 'yellow' ;
-}
-
-let noEmergencyInsideColors = document.querySelectorAll('.no-emergency-tasks h3');
-for(let index = 0; index < noEmergencyInsideColors.length; index +=1){
-    noEmergencyInsideColors[index].style.backgroundColor = 'black' ;
-}
-
-let footerColor = document.querySelector('#footer-container'); footerColor.style.backgroundColor = 'green';
+const terceiroFilho = filhoPrimeiroFilhoDoFilho
+.parentElement // primeiroFilhoDoFilho
+.parentElement // elementoOndeVoceEsta
+.nextElementSibling; // terceiroFilho
+console.log(terceiroFilho);
